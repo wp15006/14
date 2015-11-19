@@ -54,8 +54,8 @@
 				$(this).animate({
 					'margin-left':0
 				},function(){
-					$(this).css('margin-left','320px');
-					$('"slide li:last-child').prependTo('#slide');
+					$(this).css('margin-left','-320px');
+					$('slide li:last-child').prependTo('#slide');
 				});
 			}else if($(this).data('moveX')<-10){
 				//hidari swipe
